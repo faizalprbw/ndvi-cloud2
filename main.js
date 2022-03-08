@@ -14,7 +14,7 @@ import {ScaleLine, defaults as defaultControls} from 'ol/control';
 /* Map Persil */
 const wmsSource = new TileWMS ({
   // url: 'https://bhumi.atrbpn.go.id/geoserver/atrbpn/wms?authkey=4a7725ba-782q-4595-8f85-3951e14d12l1',
-  url: 'http://10.20.20.142:80/geoserver/wms',
+  url: '',
   params: {
     'FORMAT': 'image/png',
     'VERSION': '1.1.1',
